@@ -1,12 +1,16 @@
 // Your variable overrides
-$body-bg: #c9ada7;
-$body-color: white;
-$primary: #feece7;
+$body-bg: #d5d5d5;
+$body-color: #3a2a23;
+$primary: #cbb0a6;
 $font-family-base: "Space Mono", monospace;
 $jumbotron-color: #3a2a23;
-$jumbotron-bg: #f3c6b6;
+$jumbotron-bg: #cbb0a6;
 $link-color: #f2e9e4;
-$secondary: #c9ada7;
+$secondary: #3a2a23;
+$link-color: #3a2a23;
+$background-color: #cbb0a6;
+
+$bg-primary: #cbb0a6;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
