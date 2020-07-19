@@ -9,8 +9,13 @@ $link-color: #f2e9e4;
 $secondary: #3a2a23;
 $link-color: #3a2a23;
 $background-color: #cbb0a6;
+$card-bg: #cbb0a6;
+$h3-font-size: 20px;
 
 $bg-primary: #cbb0a6;
 
+h3 {
+  border: 2px solid;
+}
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";

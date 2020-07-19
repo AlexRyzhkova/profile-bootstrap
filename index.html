@@ -18,20 +18,22 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navigation-->
     <header>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#about me">about me</a>
+          <a class="nav-link about me" href="#about me">about me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#skills">skills</a>
+          <a class="nav-link skills" href="#skills">skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#contact">contact</a>
+          <a class="nav-link contact" href="#contact">contact</a>
         </li>
       </ul>
     </header>
     <main>
+      <!--Name(jumbotron)-->
       <section>
         <div class="jumbotron text-center">
           <div class="container">
@@ -44,59 +46,107 @@
           </div>
         </div>
       </section>
-      <section>
+      <!--Picture and CV(container)-->
+      <section id="about me">
         <div class="container">
           <div class="row">
-            <div class="col-sm">
+            <div class="col-md-5 order-md-1">
               <img
                 src="assets/me.png"
                 class="img-fluid"
                 alt="Responsive image"
               />
             </div>
-            <div class="col-sm">
-              <h2>About me</h2>
+            <div class="col-md-7 order-md-2">
+              <h2 class="display-6">About me</h2>
+              <hr class="my-4" />
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
                 explicabo itaque, quam pariatur quae voluptates, cum quis esse
                 provident qui beatae id doloribus maiores quos velit consectetur
                 incidunt tenetur sed.
               </p>
-              <br />
+              <ul>
+                <li>2012 Studium</li>
+                <li>2017 Junior Projektmanager</li>
+                <li>2012 Studium</li>
+                <li>2017 Junior Projektmanager</li>
+                <li>2012 Studium</li>
+                <li>2017 Junior Projektmanager</li>
+                <li>2012 Studium</li>
+                <li>2017 Junior Projektmanager</li>
+                <li>2012 Studium</li>
+                <li>2017 Junior Projektmanager</li>
+                <li>2012 Studium</li>
+                <li>2017 Junior Projektmanager</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Skills-->
+      <section>
+        <div class="skills-header px-3 py-3 mx-auto text-center">
+          <h2 class="display-6">Skills</h2>
+          <hr class="my-4" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h3 class="card-titel">SCRUM</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h3 class="card-titel">HTML</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h3 class="card-titel">SW Test</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h3 class="card-titel">CSS</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h3 class="card-titel">klassiches PM</h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section>
-        <div class="container">
+        <div class="container" id="skills">
           <div class="row">
-            <div class="col-sm">
-              <h2>HTML</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua.
-              </p>
-              <p>
-                <button type="button" class="btn btn-primary">
-                  View details
-                </button>
-              </p>
+            <div class="col-sm text-center">
+              <h3>HTML</h3>
             </div>
-            <div class="col-sm">
-              <h2>CSS</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore
-              </p>
+            <div class="col-sm text-center">
+              <h3>CSS</h3>
             </div>
-            <div class="col-sm">
-              <h2>JavaScript</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua.
-              </p>
+            <div class="col-sm text-center">
+              <h3>JS</h3>
+            </div>
+            <div class="col-sm text-center">
+              <h3>SCRUM</h3>
+            </div>
+            <div class="col-sm text-center">
+              <h3>SW Test</h3>
             </div>
           </div>
         </div>
