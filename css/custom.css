@@ -1,4 +1,20 @@
 @charset "UTF-8";
+#skills {
+  margin-bottom: 30px;
+}
+
+#skills2 {
+  margin-bottom: 20px;
+}
+
+#interests {
+  margin-bottom: 20px;
+}
+
+#contact {
+  margin-bottom: 20px;
+}
+
 h3 {
   border: 2px solid;
 }
