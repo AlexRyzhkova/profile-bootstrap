@@ -1,8 +1,34 @@
 // Your variable overrides
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+$body-bg: #d5d5d5;
+$body-color: #3a2a23;
+$primary: #cbb0a6;
+$font-family-base: "Space Mono", monospace;
+$jumbotron-color: #3a2a23;
+$jumbotron-bg: #cbb0a6;
+$link-color: #f2e9e4;
+$secondary: #3a2a23;
+$link-color: #3a2a23;
+$background-color: #cbb0a6;
+$card-bg: #cbb0a6;
+$h3-font-size: 20px;
 
+$bg-primary: #cbb0a6;
+#skills {
+  margin-bottom: 30px;
+}
+
+#skills2 {
+  margin-bottom: 20px;
+}
+#interests {
+  margin-bottom: 20px;
+}
+
+#contact {
+  margin-bottom: 20px;
+}
+h3 {
+  border: 2px solid;
+}
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
